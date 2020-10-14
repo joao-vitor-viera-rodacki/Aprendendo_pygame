@@ -20,7 +20,7 @@ if __name__ == '__main__':
             
         keys= pygame.key.get_pressed()
 
-        if keys[pygame.MOUSEMOTION]:
+        if keys[pygame.K_w]:
             print('pega')
             '''
             elif event.type == pygame.KEYDOWN:
